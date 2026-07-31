@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+title: "Unified Update Experience Framework for the Android Ecosystem"
+authors:
+  - family-names: "Al‑Essa"
+    given-names: "Ali Nasser"
+    orcid: null
+    affiliation: []
+    url: "https://github.com/ALi8744"
+    name: "Ali Nasser Al‑Essa"
+    github: "ALi8744"
+repository-code: "https://github.com/ALi8744/android-ecosystem-research"
+license: "CC BY 4.0"
+message: "CITATION file for the Unified Update Experience Framework repository. Please cite this repository when using its materials in research or product work."
