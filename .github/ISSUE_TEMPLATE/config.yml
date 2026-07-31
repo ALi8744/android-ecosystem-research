@@ -1,0 +1,22 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "Security"
+    url: "/security/advisories"
+    about: "Report security vulnerabilities: do not use public issues for sensitive disclosures."
+
+issue_template:
+  - name: "Bug report"
+    about: "Report a bug in documentation, scripts, or processes."
+    title: "[BUG] "
+    labels: ["bug", "triage"]
+    template: "bug_report.md"
+  - name: "Feature request"
+    about: "Request a new document, feature, or research artifact."
+    title: "[FEATURE] "
+    labels: ["enhancement", "proposal"]
+    template: "feature_request.md"
+  - name: "Research contribution / proposal"
+    about: "Propose research work, reproducible artifacts, or request methodological feedback."
+    title: "[RESEARCH] "
+    labels: ["research", "methods"]
+    template: "research.md"
