@@ -1,0 +1,5 @@
+# CODEOWNERS
+# Default code owner for the repository. This assigns the repository owner as the reviewer/owner for all files.
+# Ownership can be expanded later as contributors join the project (add more paths and users as needed).
+
+* @ALi8744
