@@ -1,0 +1,75 @@
+# .gitignore for Unified Update Experience Framework (documentation & research repository)
+# Purpose: ignore common OS, editor, temporary, and build artifacts while keeping research and documentation files tracked.
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# Linux / other
+*~
+.#*
+
+# Editor/IDE directories and files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.kate-swp
+
+# Swap and temporary files
+*.swp
+*.swo
+*.tmp
+*.temp
+~$*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node (if contributors add tooling)
+node_modules/
+
+# Build / distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Coverage
+.coverage
+htmlcov/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Archives
+*.tar.gz
+*.zip
+*.tgz
+*.rar
+
+# Do NOT ignore research documents, notebooks, diagrams, or other project files.
+# Explicitly keep Markdown, notebooks, and common documentation formats tracked.
